@@ -25,3 +25,4 @@ let resultnumber = numbers.find(function(item){
     return item>1;
 });
 console.log(resultnumber);
+
