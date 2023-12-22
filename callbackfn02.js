@@ -1,3 +1,5 @@
+let am = 11;
+
 let sayHello = function(){
     console.log("Hello");
 }
