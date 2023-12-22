@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <img src="photo/building.png.jpg" alt="building" id="building">
+    <script>
+ // jQuery 코드 작성
+ $(document).ready(function() {
+            // 문서가 준비되면 실행할 코드
+
+            // 예제 1: 문서 로드 후 h1 요소의 텍스트 변경
+            $("#building").text("Hello, jQuery is connected!");
+
+            // 예제 2: 버튼 클릭 이벤트 처리
+            $("#building").click(function() {
+                $("#building").toggle();
+                
+            });
+        });
+    </script>
+</body>
+</html>
